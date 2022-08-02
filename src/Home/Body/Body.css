@@ -1,0 +1,66 @@
+.backgroundCorpo{
+    padding-top: 1em;
+    height: 33em;
+    background-image: url("src/imgFundo/Forma2.png") ;
+    background-size: 5em 30em, auto;
+    background-repeat: no-repeat;
+    background-position: right center, center bottom;
+    background-color: #3772FF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13em;
+
+}
+
+
+.backgroundCorpo .textoHome{
+    margin-top: -22em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 15em;
+    position: absolute;
+    font-size: 0.95em;
+
+}
+
+.backgroundCorpo .textoHome h3{
+    margin-top: 20px;
+}
+
+
+.backgroundCorpo .btn-login{
+    margin-top: 1em;
+    width: 180px;
+    height: 45px;
+    left: 90px;
+    top: 398px;
+    background: #FC7071;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 1em;
+    font-family: 'Poppins';
+    box-shadow: rgb(59, 59, 59) 1px 1px 3px;
+    }
+
+    .backgroundCorpo .btn-cadastro{
+        margin-top: 1em;
+        width: 180px;
+        height: 45px;
+        left: 90px;
+        top: 398px;
+        background: #FC7071;
+        border-radius: 6px;
+        color: #FFF;
+        font-size: 1em;
+        font-family: 'Poppins';
+        box-shadow: rgb(59, 59, 59) 1px 1px 3px;
+        }
+
+

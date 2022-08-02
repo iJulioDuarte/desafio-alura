@@ -1,0 +1,43 @@
+@media screen and (max-width: 640px){
+
+.backgroundHeader{
+    height: 12em;
+    background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
+    background-size: 22em 13em, 24em 13em;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #3772FF;
+    position: relative;   
+}
+
+
+
+header .imagens-topo{
+    padding: 2em 0 0 2em; 
+}
+
+header .imagens-topo img{
+    max-height: 1.2em;
+    max-width: 1.2em;
+    padding: 0.35em;
+    padding-right: 1.6em;
+    
+}
+
+header .logo{
+    margin-top: 6.70em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3772FF;
+}
+header .logo img{
+    max-width: 13em;
+}
+
+}
+
+
+
+
+
