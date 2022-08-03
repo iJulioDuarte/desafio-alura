@@ -1,10 +1,11 @@
-import { Home } from "./Home/Home"
+import { Home } from "./Pages/Home/Home"
 import "./App.css"
+import { Cadastro } from "./Pages/Cadastro/Cadastro"
 
 function App() {
   return (
     <>
-      <Home />
+      <Cadastro />
     </>
     
   )

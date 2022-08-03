@@ -5,8 +5,8 @@ export function Header(){
         <header>
             <div className="backgroundHeader">
                 <div className="imagens-topo">
-                    <img className="imagem" src="src\Home\Header\img\Casa.png" />
-                    <img className="detalhe" src="src\Home\Header\img\Mensagens.png" />
+                    <img className="imagem" src="src\Pages\Home\Header\img\Casa.png" />
+                    <img className="detalhe" src="src\Pages\Home\Header\img\Mensagens.png" />
                 </div>
                 <div className="logo">
                     <img src="src\Home\Header\img\Logo.png" alt="logo" />

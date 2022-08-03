@@ -1,0 +1,15 @@
+@media screen and (max-width: 640px){
+    .navbar-model{
+        position: relative;
+    }
+    
+    .navbar-model ul{
+        list-style: none;
+    }
+    .navbar-model ul li{
+        display: inline;
+    }
+    .navbar-model ul li img{
+        padding: 1.7rem;
+    }
+}

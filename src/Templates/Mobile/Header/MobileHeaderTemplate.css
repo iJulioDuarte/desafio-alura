@@ -1,0 +1,15 @@
+@media screen and (max-width: 640px){
+
+    .model-mobile-header{
+        height: 12rem;
+        background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
+        background-size: 22rem 13rem, 24rem 13rem;
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 100%;
+        position: absolute;  
+        z-index: -10; 
+    }
+
+    
+    }

@@ -1,0 +1,15 @@
+@media screen and (max-width: 640px){
+    .body-template-mobile{
+        padding-top: 1rem;
+        height: 100%;
+        transform: rotateY(180deg);
+        position: absolute;
+    }
+
+    .body-template-mobile img{
+        margin-top: 17rem;
+        width: 5.16rem;
+        height: 25.93rem;
+        z-index: -11;
+    }
+}
