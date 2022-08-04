@@ -1,18 +1,17 @@
-.cadastro{
+.login{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: -10rem;
 }
-.cadastro .logo{
+.login .logo{
     max-width: 12.375rem;
     width: auto;
     height: auto;
     margin-bottom: 1rem;
 }
 
-.cadastro .apresentacao{
+.login .apresentacao{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -24,9 +23,11 @@
     padding-bottom: 1rem;
 }
 
-.pag-pets .apresentacao h4{
+.login .apresentacao .texto-inicio h4{
     color: #3772FF;
     padding-bottom: 0.7rem;
-    max-width: 13rem;
 }
 
+.login .formulario{
+    margin-top: 2rem;
+}

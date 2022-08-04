@@ -35,13 +35,14 @@
 }
 
 
-.backgroundCorpo .btn-login{
+.btn-login{
     margin-top: 1em;
     width: 180px;
     height: 45px;
     left: 90px;
     top: 398px;
     background: #FC7071;
+    border:none;
     border-radius: 6px;
     color: #FFF;
     font-size: 1em;
@@ -49,13 +50,14 @@
     box-shadow: rgb(59, 59, 59) 1px 1px 3px;
     }
 
-    .backgroundCorpo .btn-cadastro{
+    .btn-cadastro{
         margin-top: 1em;
         width: 180px;
         height: 45px;
         left: 90px;
         top: 398px;
         background: #FC7071;
+        border:none;
         border-radius: 6px;
         color: #FFF;
         font-size: 1em;
