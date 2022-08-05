@@ -1,7 +1,7 @@
 @media screen and (max-width: 640px){
     .footer-template-mobile{
         position: relative;
-        top:12rem;
+        margin-top: 2rem;
         color: #fff;
         background: #36D6AD;
         width: 100%;

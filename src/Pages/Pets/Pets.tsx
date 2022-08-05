@@ -34,13 +34,11 @@ export function Pets(){
             </div>
             
         </div>
-
-        <footer>
-            <MobileFooterTemplate />
-        </footer>
-        
+     
     </div>
-        
+    <footer>
+        <MobileFooterTemplate />
+    </footer>     
     </>
     )
 }

@@ -4,7 +4,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: -10rem;
     }
     .pag-pets .logo{
         max-width: 12.375rem;
@@ -40,7 +39,6 @@
     }
 
     footer{
-        margin-top: -9rem;
         width: 100%;
     }
 }

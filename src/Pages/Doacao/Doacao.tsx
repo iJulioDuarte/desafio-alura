@@ -1,6 +1,7 @@
 import { FormDoacao } from "./FormDoacao/FormDoacao"
 import { TemplateSimples } from "../../Templates/TemplateSimples"
 import "./Doacao.css"
+import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
 
 export function Doacao(){
     return(
@@ -16,6 +17,8 @@ export function Doacao(){
                     <FormDoacao />
                 </section>
             </div>
+
+            <MobileFooterTemplate />
         </>
     )
 }
