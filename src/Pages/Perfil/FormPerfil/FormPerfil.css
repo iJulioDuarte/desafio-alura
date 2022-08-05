@@ -1,0 +1,16 @@
+@media screen and (max-width: 640px){
+    .form-perfil{
+        height: 33.75rem;
+        width: 19.5rem;
+        background-color: #F7F7F7;
+        padding: 2rem;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-perfil .form-component .perfil-picture{
+        max-width: 5rem;
+    }
+}

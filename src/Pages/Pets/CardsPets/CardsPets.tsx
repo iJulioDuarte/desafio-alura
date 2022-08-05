@@ -1,12 +1,7 @@
 import "./CardsPets.css"
+import { CardsPetsProps } from "./CardsPetsProps"
 
-export function CardsPets(infos:any){
-    const imagem:string = infos.imagem
-    const nome:string = infos.nome
-    const idade:string = infos.idade
-    const porte:string = infos.porte
-    const personalidade:string = infos.personalidade
-    const cidade:string = infos.cidade
+export function CardsPets({imagem, nome, idade, porte, personalidade, cidade}:CardsPetsProps){
     return(
         <section className="cards-pets">
             <div className="card-pets">

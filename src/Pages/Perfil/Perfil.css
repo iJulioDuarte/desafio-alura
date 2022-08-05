@@ -1,5 +1,5 @@
 @media screen and (max-width: 640px){
-    .pag-doacao{
+    .pag-perfil{
         padding-top: 7.5rem;
         display: flex;
         flex-direction: column;
@@ -7,11 +7,12 @@
         align-items: center;
     }
 
-    .texto-doacao{
+    .texto-perfil{
         color:#3772FF;
         max-width: 14rem;
         max-height: 3.75rem;
         text-align: center;
         margin-bottom: 3rem;
     }
+
 }
