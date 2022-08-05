@@ -1,4 +1,5 @@
 
+import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
 import { TemplateSimples } from "../../Templates/TemplateSimples"
 import { FormPerfil } from "./FormPerfil/FormPerfil"
 import "./Perfil.css"
@@ -17,6 +18,8 @@ export function Perfil(){
                     <FormPerfil />
                 </section>
             </div>
+            <MobileFooterTemplate />
+
             
         </>
     )

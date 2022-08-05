@@ -1,6 +1,6 @@
 @media screen and (max-width: 640px){
     .form-perfil{
-        height: 33.75rem;
+        height: 40.75rem;
         width: 19.5rem;
         background-color: #F7F7F7;
         padding: 2rem;
@@ -9,8 +9,26 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .form-perfil .form-component .perfil-picture{
+    .form-perfil .foto-component{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-perfil .perfil-picture{
         max-width: 5rem;
+        border-radius: 64px;
+    }
+    .form-perfil h2{
+        color: #737380;
+    }
+    .form-perfil h6{
+        color:red;
+        padding-bottom: 1rem;
+    }
+
+    .form-perfil .form-component textarea{
+        height: 8rem;
     }
 }

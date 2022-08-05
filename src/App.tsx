@@ -13,7 +13,7 @@ import { TemplateSimples } from "./Templates/TemplateSimples"
 function App() {
   return (
     <>
-      <Pets />
+      <Perfil />
     </>
     
   )

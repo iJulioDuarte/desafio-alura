@@ -6,17 +6,16 @@ export function FormPerfil(){
     return(
 
         <div className="form-perfil">
+            <h2>Perfil</h2>
             <div>
             <form>
                 <div className="form-component">
-                    <label>Foto</label>
-                    <div>
-                      <img className="perfil-picture" src="https://github.com/Eduardo-Ca.png" /> 
-                      <h6>Clique na foto para editar</h6> 
-                    </div>
-                    
+                    <label>Foto</label> 
                 </div>
-
+                <div className="foto-component">
+                    <img className="perfil-picture" src="https://github.com/iJulioDuarte.png" /> 
+                    <h6>Clique na foto para editar</h6> 
+                </div>
 
                 <div className="form-component">
                     <label>Nome:</label>
@@ -29,13 +28,13 @@ export function FormPerfil(){
                 </div>
 
                 <div className="form-component">
-                    <label>Nome do animal:</label>
-                    <input type="text" name="nomeAnimal" placeholder="Por qual animal se interessou?" className="campo-texto"></input>
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade" placeholder="Informe em qual cidade você mora" className="campo-texto"></input>
                 </div>
 
                 <div className="form-component">
-                    <label>Mensagem</label>
-                    <textarea rows={16} cols={40} maxLength={480} name="telefone" placeholder="Escreva sua mensagem" className="campo-texto"></textarea>
+                    <label>Sobre:</label>
+                    <textarea maxLength={255} name="telefone" placeholder="Escreva uma pequena descrição sobre você" className="campo-texto"></textarea>
                 </div>
             </form>
             </div>   
