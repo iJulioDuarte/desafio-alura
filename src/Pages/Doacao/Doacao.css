@@ -1,0 +1,15 @@
+.pag-doacao{
+    padding-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-doacao{
+    color:#3772FF;
+    max-width: 14rem;
+    max-height: 3.75rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}

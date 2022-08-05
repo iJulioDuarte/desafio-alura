@@ -1,62 +1,46 @@
-.pag-pets{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -10rem;
-}
-.pag-pets .logo{
-    max-width: 12.375rem;
-    width: auto;
-    height: auto;
-    margin-bottom: 1rem;
-}
+@media screen and (max-width: 640px){
+    .pag-pets{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -10rem;
+    }
+    .pag-pets .logo{
+        max-width: 12.375rem;
+        width: auto;
+        height: auto;
+        margin-bottom: 1rem;
+    }
 
-.pag-pets .apresentacao{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    max-width: 17rem;
-    margin-top: 8.5rem;
-    padding-bottom: 1rem;
-}
+    .pag-pets .apresentacao{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        max-width: 17rem;
+        margin-top: 8.5rem;
+        padding-bottom: 1rem;
+    }
 
-.pag-pets .apresentacao h3{
-    color: #3772FF;
-    padding-bottom: 0.7rem;
-    max-width: 13rem;
-}
+    .pag-pets .apresentacao h3{
+        color: #3772FF;
+        padding-bottom: 0.7rem;
+        max-width: 13rem;
+    }
 
-.pag-pets .cards-pets{
-    background-color: #F6F6F6;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    .pag-pets .cards{
+        width: 100%;
+    }
 
-.pag-pets .cards-pets .card-pets{
-    display: flex;
-}
+    .pag-pets .cards-pets{
+        margin-bottom: 1.2rem;
+    }
 
-.pag-pets .cards-pets .card-pets .pet-name{
-    color: #3772FF;
-    font-weight:bold;
-    margin-bottom: 0.3rem;
-}
-
-.pag-pets .cards-pets .card-pets .pet-img{
-    padding-right: 1.5rem;
-}
-
-.pag-pets .cards-pets .card-pets .pet-contact{
-    margin-top: 0.3rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.pag-pets .cards-pets .card-pets .pet-footer-contact{
-    display: flex;
+    footer{
+        margin-top: -9rem;
+        width: 100%;
+    }
 }
