@@ -1,4 +1,5 @@
 import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
+import { Navbar } from "../../Templates/Mobile/Navbar/Navbar"
 import { TemplateCompleto } from "../../Templates/TemplateCompleto"
 import { FormLogin } from "./FormLogin/FormLogin"
 import "./Login.css"
@@ -7,6 +8,7 @@ export function Login(){
     return(
         <>
         <TemplateCompleto />
+        <Navbar />
         <div className="login">
             
 

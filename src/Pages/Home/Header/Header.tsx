@@ -1,3 +1,4 @@
+import { Navbar } from "../../../Templates/Mobile/Navbar/Navbar"
 import "./header.css"
 
 export function Header(){
@@ -5,11 +6,10 @@ export function Header(){
         <header>
             <div className="backgroundHeader">
                 <div className="imagens-topo">
-                    <img className="imagem" src="src\Pages\Home\Header\img\Casa.png" />
-                    <img className="detalhe" src="src\Pages\Home\Header\img\Mensagens.png" />
+                    <Navbar />
                 </div>
-                <div className="logo">
-                    <img src="src\Home\Header\img\Logo.png" alt="logo" />
+                <div className="logo2">
+                    <img src="src\Pages\Home\Header\img\Logo.png" alt="logo" />
                 </div>
             </div>
         </header>

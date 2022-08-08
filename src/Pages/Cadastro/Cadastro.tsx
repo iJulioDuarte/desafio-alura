@@ -1,4 +1,6 @@
 import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
+
+import { Navbar } from "../../Templates/Mobile/Navbar/Navbar"
 import { TemplateCompleto } from "../../Templates/TemplateCompleto"
 import "./Cadastro.css"
 import { FormCadastro } from "./FormCadastro/FormCadastro"
@@ -7,6 +9,7 @@ export function Cadastro(){
     return(
         <>
         <TemplateCompleto />
+        <Navbar />
         <div className="cadastro">
             
             

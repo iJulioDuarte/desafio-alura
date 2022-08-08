@@ -18,7 +18,7 @@
 
 
     .backgroundCorpo .textoHome{
-        margin-top: -22em;
+        margin-top: -25rem;
         color: white;
         display: flex;
         flex-direction: column;
@@ -37,7 +37,7 @@
 
 
     .btn-login{
-        margin-top: 1em;
+        margin-top: 1rem;
         width: 180px;
         height: 45px;
         left: 90px;
@@ -50,9 +50,9 @@
         font-family: 'Poppins';
         box-shadow: rgb(59, 59, 59) 1px 1px 3px;
     }
-
     .btn-cadastro{
         margin-top: 1em;
+        margin-bottom: 1rem;
         width: 180px;
         height: 45px;
         left: 90px;

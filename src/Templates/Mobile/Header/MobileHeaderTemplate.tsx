@@ -5,7 +5,7 @@ export function MobileHeaderTemplate(){
     return(
         <header>
             <div className="model-mobile-header">
-                <Navbar />
+                
             </div>
         </header>
     )

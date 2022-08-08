@@ -10,7 +10,7 @@
         align-items: center;
     }
 
-    form .form-component{
+    .form-doacao .form-component{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -24,7 +24,7 @@
         font-size: 14px;
     }
 
-    form label{
+    .form-docacao form label{
         width: 4.25rem;
         height: 1.56rem;
         font-family: 'Poppins';
