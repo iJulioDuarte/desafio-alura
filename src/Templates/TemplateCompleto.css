@@ -1,3 +1,14 @@
+.navbar-model ul li .item3{
+    display: inline-block;
+}
+
+.navbar-model ul li .item1{
+    margin-bottom: 0.5rem;
+}
+.navbar-model ul li .item2{
+    margin-bottom: 0.5rem
+}
+
 @media screen and (max-width: 640px){
     .navbar-model ul li .item3{
         display: inline-block;

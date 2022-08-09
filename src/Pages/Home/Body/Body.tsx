@@ -8,7 +8,9 @@ export function Body(){
         <>
         <div className="backgroundCorpo">
 
+                
                 <div className="textoHome">
+                    <img className="logo-inicio" src="src\Pages\Home\Header\img\Logo.png" alt="Adopet" />
                     <h1>Boas-vindas!</h1>
 
                     <h3>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</h3>

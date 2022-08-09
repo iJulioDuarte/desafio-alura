@@ -21,7 +21,7 @@ const navigate = useNavigate()
         <form onSubmit={(e) => {
             e.preventDefault()
             const valido = armazenaDados(email, senha, confirmaSenha)
-            if (valido === true){
+            if (valido){
                 navigate("/home")
                 alert("Cadastro realizado com sucesso!")
             }

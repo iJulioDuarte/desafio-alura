@@ -6,11 +6,10 @@ export function Header(){
         <header>
             <div className="backgroundHeader">
                 <div className="imagens-topo">
+                    <img className="logo2" src="src\Pages\Home\Header\img\Logo.png" alt="logo" />
                     <Navbar />
                 </div>
-                <div className="logo2">
-                    <img src="src\Pages\Home\Header\img\Logo.png" alt="logo" />
-                </div>
+                
             </div>
         </header>
         

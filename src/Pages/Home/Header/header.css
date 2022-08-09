@@ -1,9 +1,39 @@
+.backgroundHeader{
+        height: 24em;
+        background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
+        background-size: 40em 20rem, 43em 24em;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #3772FF;
+        position: relative; 
+        margin-bottom: -1rem;  
+        z-index: -200;
+    }
+
+    header .logo2{
+        max-width: 10rem;
+    }
+    .imagens-topo{
+        display: flex;
+        align-items: center;
+        padding:1.4rem;
+        padding-left: 7rem;
+    }
+    
+
+    .item3{
+        display: none;
+    }
+
+    
+
+
 @media screen and (max-width: 640px){
 
 .backgroundHeader{
     height: 12em;
     background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
-    background-size: 22em 13em, 24em 13em;
+    background-size: 22em 13em, 25em 13em;
     background-repeat: no-repeat;
     background-position: left top;
     background-color: #3772FF;
@@ -11,27 +41,25 @@
     margin-bottom: -1rem;  
 }
 
+    .item3{
+        display: none;
+    }
 
+    header .logo2{
+        display:none
+    }
+
+    .imagens-topo{
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+    }
 
 }
 
 
 
-@media screen and (min-width: 1700px) {
+
     
-}
-
-
-header .logo2{
-    display: none;
-}
-
-.item3{
-    display: none;
-}
-
-
-
-
-
-
+    

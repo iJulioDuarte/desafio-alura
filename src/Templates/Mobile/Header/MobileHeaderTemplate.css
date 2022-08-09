@@ -1,3 +1,12 @@
+ .model-mobile-header{
+        height: 24em;
+        background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
+        background-size: 40em 20rem, 43em 24em;
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: relative; 
+        margin-bottom: -1rem;  
+        z-index: -200;}
 @media screen and (max-width: 640px){
 
     .model-mobile-header{
