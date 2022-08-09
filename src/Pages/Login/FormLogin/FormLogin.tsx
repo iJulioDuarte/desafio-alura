@@ -1,21 +1,37 @@
 import "../../Cadastro/FormCadastro/FormCadastro.css"
 import "../../Home/Body/Body.css"
 import { useState } from "react"
+import { confereDados } from "../confereSenha/confereDados"
+import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 export function FormLogin(){
     const [exibe, setExibe] = useState(false)
+    const [emailLogin, setEmailLogin] = useState("")
+    const [senhaLogin, setSenhaLogin] = useState("")
+
+    let navigator = useNavigate()
     return(
     <>
-        <form className="formLogin">
+        <form className="formLogin" onSubmit={(e) =>{
+            e.preventDefault();
+            const logado = confereDados(emailLogin, senhaLogin)
+            logado === true ? navigator("/pets") : alert("Email e/ou senha inválidos")
+        }}>
+
         <div className="form-component">
             <label>Email:</label>
-            <input type="text" name="email" placeholder="Digite seu melhor email" className="campo-texto"></input>
+            <input required type="text" name="email" placeholder="Digite seu melhor email" className="campo-texto" value={emailLogin} onChange={(e) =>{
+                        setEmailLogin(e.target.value)
+                    }}></input>
         </div>
         <div className="form-component">
                 <label>Senha:</label>
                 <div className="campo-senha">
-                    <input type={exibe ? "text" : "password"} name="senha" placeholder="Crie uma senha" className="campo-texto" />
+                    <input required type={exibe ? "text" : "password"} name="senha" placeholder="Crie uma senha" className="campo-texto" value={senhaLogin} onChange={(e) =>{
+                        setSenhaLogin(e.target.value)
+                    }}/>
                     <img  className="eyeSvg" onClick={() =>{
                 
                         if (exibe === true){

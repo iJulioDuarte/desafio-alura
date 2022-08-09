@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { Routes, Route, Navigate } from "react-router-dom"
 import { Cadastro } from "../Pages/Cadastro/Cadastro"
 import { Doacao } from "../Pages/Doacao/Doacao"
