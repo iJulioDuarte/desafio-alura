@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .pag-pets .cards .card{
@@ -27,7 +28,7 @@
 }
 
 .pag-pets .cards-pets{
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 footer{
