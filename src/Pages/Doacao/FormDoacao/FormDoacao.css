@@ -7,6 +7,13 @@
     cursor: pointer;
 }
 
+.form-doacao input{
+    background-color: #FFF;
+}
+.form-doacao textarea{
+    background-color: #FFF;
+}
+
 @media screen and (max-width: 640px){
     .form-doacao{
         height: 33.75rem;

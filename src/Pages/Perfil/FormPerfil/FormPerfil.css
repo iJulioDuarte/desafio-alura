@@ -18,33 +18,25 @@
     padding-bottom: 1rem;
 }
 
+.form-perfil input{
+    background-color: #FFF;
+}
+.form-perfil textarea{
+    background-color: #FFF;
+}
+
 .form-perfil .form-component textarea{
     height: 8rem;
 }
 @media screen and (max-width: 640px){
-    .form-perfil{
-        height: 40.75rem;
-        width: 19.5rem;
-        background-color: #F7F7F7;
-        padding: 2rem;
-        border-radius: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .form-perfil .foto-component{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .form-perfil .perfil-picture{
         max-width: 5rem;
         border-radius: 64px;
     }
     .form-perfil h2{
         color: #737380;
+        position: relative;
+        padding-bottom: 3rem;
     }
     .form-perfil h6{
         color:red;
@@ -54,4 +46,5 @@
     .form-perfil .form-component textarea{
         height: 8rem;
     }
+
 }

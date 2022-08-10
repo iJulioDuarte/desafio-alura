@@ -8,7 +8,7 @@
 
 .texto-perfil{
     color:#3772FF;
-    max-width: 14rem;
+    max-width: 25rem;
     max-height: 3.75rem;
     text-align: center;
     margin-bottom: 3rem;
@@ -67,7 +67,7 @@
     }
 
     .form-perfil{
-        height: 39.75rem;
+        height: auto;
         width: 19.5rem;
         background-color: #F7F7F7;
         padding: 2rem;
@@ -97,7 +97,7 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 0px;
         color: #3772FF;
     }
 
