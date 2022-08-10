@@ -2,6 +2,11 @@
     position: absolute;
     top: 0;
     right: 0;
+  
+}
+
+.patas img{
+    width: 10rem;
 }
 
 @media screen and (max-width: 640px){
@@ -10,5 +15,8 @@
         top: 0;
         right: 0;
     }
+    .patas img{
+        width: 7rem;
+    };
 
 }

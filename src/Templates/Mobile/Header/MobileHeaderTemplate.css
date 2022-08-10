@@ -1,12 +1,14 @@
- .model-mobile-header{
-        height: 24em;
-        background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
-        background-size: 40em 20rem, 43em 24em;
-        background-repeat: no-repeat;
-        background-position: left top;
-        position: relative; 
-        margin-bottom: -1rem;  
-        z-index: -200;}
+.model-mobile-header{
+    height: 22rem;
+    background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
+    background-size: 42rem 22rem, 43rem 24rem;
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100%;
+    position: absolute;  
+    z-index: -100;
+}
+
 @media screen and (max-width: 640px){
 
     .model-mobile-header{

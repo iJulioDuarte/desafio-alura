@@ -1,3 +1,43 @@
+.mobile{
+    display:none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10.8rem;
+}
+
+.login .logo{
+    max-width: 18.375rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.login .apresentacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    max-width: 120rem;
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+    color:#3772FF;
+    font-size: 19px;
+}
+
+.imagens-topo .logo2{
+    width: 10rem;
+    margin-left: 2rem;
+}
+
+
+
 @media screen and (max-width: 640px){
     .login{
         display: flex;
@@ -32,5 +72,13 @@
 
     .login .formulario{
         margin-top: 2rem;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+    .mobile{
+        display: block;
     }
 }

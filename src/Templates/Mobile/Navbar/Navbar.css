@@ -14,9 +14,29 @@
 
     .item3{
         width: 2.1rem;
+        margin-left: 45rem;
         margin-bottom: 0.5rem;
     }
 
+
 @media screen and (max-width: 640px){
+    .navbar-model{
+        position: relative;
+    }
     
+    .navbar-model ul{
+        list-style: none;
+    }
+    .navbar-model ul li{
+        display: inline;
+    }
+    .navbar-model ul li img{
+        padding: 1.7rem;
+    }
+
+    .item3{
+        width: 2.1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 2.6rem;
+    }
 }

@@ -1,3 +1,39 @@
+.pag-pets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag-pets .cards .card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 70rem;
+}
+.pag-pets .logo{
+    max-width: 12.375rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+.pag-pets .apresentacao h3{
+    margin-top: 3rem;
+    color: #3772FF;
+    padding-bottom: 0.7rem;
+}
+
+.pag-pets .cards-pets{
+    margin-bottom: 1.2rem;
+}
+
+footer{
+    width: 100%;
+}
+
 @media screen and (max-width: 640px){
     .pag-pets{
         display: flex;

@@ -1,3 +1,12 @@
+.form-component:first-child{
+    margin-top: -5rem;
+}
+
+.button-doacao:hover{
+    background: #f54545;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 640px){
     .form-doacao{
         height: 33.75rem;
@@ -47,7 +56,7 @@
         color:#BCBCBC;
     }
 
-    button{
+    .button-doacao{
         width: 8.5rem;
         min-height: 2rem;
         background: #FC7071;

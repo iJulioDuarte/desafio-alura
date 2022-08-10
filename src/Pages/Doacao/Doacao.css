@@ -1,3 +1,76 @@
+.pag-doacao{
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-doacao{
+    margin-top: 2rem;
+    color:#3772FF;
+    max-height: 3.75rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form-doacao{
+    height: auto;
+    width: 38.5rem;
+    background-color: #F7F7F7;
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-doacao .form-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 1.4rem;
+}
+
+.form-component textarea{
+    resize: none;
+    height: 12.5rem;
+    font-size: 14px;
+}
+
+.form-doacao form label{
+    width: 4.25rem;
+    height: 1.56rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3772FF;
+}
+
+ .campo-texto{
+    width: 19.5rem;
+    height: 2.5rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 6px;
+    text-align:center;
+}
+
+*::placeholder{
+    color:#BCBCBC;
+}
+
+button{
+    width: 8.5rem;
+    min-height: 2rem;
+    background: #FC7071;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
 @media screen and (max-width: 640px){
     .pag-doacao{
         padding-top: 3.5rem;

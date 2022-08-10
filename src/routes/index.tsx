@@ -5,6 +5,7 @@ import { Home } from "../Pages/Home/Home"
 import { Login } from "../Pages/Login/Login"
 import { Perfil } from "../Pages/Perfil/Perfil"
 import { Pets } from "../Pages/Pets/Pets"
+import { TemplateCompletoDesktop } from "../Templates/Desktop/TemplateCompletoDesktop"
 export function AppRoutes(){
     return(
         <Routes>
@@ -22,6 +23,8 @@ export function AppRoutes(){
             <Route path="/doacao" element={<Doacao />} />
 
             <Route path="/perfil" element={<Perfil />} />
+
+            <Route path="/teste" element={<TemplateCompletoDesktop />} />
 
         </Routes>
     )

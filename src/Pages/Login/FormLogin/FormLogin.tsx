@@ -3,7 +3,6 @@ import "../../Home/Body/Body.css"
 import { useState } from "react"
 import { confereDados } from "../confereSenha/confereDados"
 import { useNavigate } from "react-router-dom"
-import { Link } from "react-router-dom"
 
 
 export function FormLogin(){

@@ -1,5 +1,6 @@
 import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
 import { Navbar2 } from "../../Templates/Mobile/Navbar/Navbar2"
+import { TemplatePadrao2 } from "../../Templates/TemplatePadrao2"
 import { TemplateSimples } from "../../Templates/TemplateSimples"
 import { CardsPets } from "./CardsPets/CardsPets"
 import "./Pets.css"
@@ -7,8 +8,7 @@ import "./Pets.css"
 export function Pets(){
     return(
     <>
-    <TemplateSimples /> 
-    <Navbar2 />
+    <TemplatePadrao2 />
     <div className="pag-pets">
         
         <section className="apresentacao">

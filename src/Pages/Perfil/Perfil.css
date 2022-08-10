@@ -1,3 +1,54 @@
+.pag-perfil{
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-perfil{
+    color:#3772FF;
+    max-width: 14rem;
+    max-height: 3.75rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form-perfil{
+    height: 39.75rem;
+    width: 40.5rem;
+    background-color: #F7F7F7;
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-perfil .form-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 1.4rem;
+}
+
+.form-perfil .form-component textarea{
+    resize: none;
+    height: 6.5rem;
+    font-size: 14px;
+}
+
+.form-perfil form label{
+    width: 4.25rem;
+    height: 1.56rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3772FF;
+}
+
 @media screen and (max-width: 640px){
     .pag-perfil{
         padding-top: 3.5rem;

@@ -1,14 +1,16 @@
+import { TemplateCompletoDesktop } from "../../Templates/Desktop/TemplateCompletoDesktop"
 import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
 import { Navbar } from "../../Templates/Mobile/Navbar/Navbar"
 import { TemplateCompleto } from "../../Templates/TemplateCompleto"
+import { TemplatePadrao1 } from "../../Templates/TemplatePadrao1"
 import { FormLogin } from "./FormLogin/FormLogin"
 import "./Login.css"
 
 export function Login(){
     return(
         <>
-        <TemplateCompleto />
-        <Navbar />
+        <TemplatePadrao1 />
+        
         <div className="login">
             
 

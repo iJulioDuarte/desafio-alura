@@ -32,7 +32,7 @@ const navigate = useNavigate()
             
             <div className="form-component">
                 <label>Email:</label>
-                <input required type="text" name="email" placeholder="Digite seu melhor email" className="campo-texto" value={email} onChange={(e) =>{
+                <input required type="text" name="email" placeholder="Digite seu melhor" className="campo-texto" value={email} onChange={(e) =>{
                         setEmail(e.target.value)
                     }}></input>
             </div>

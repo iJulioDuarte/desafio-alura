@@ -1,15 +1,14 @@
 import { MobileFooterTemplate } from "../../Templates/Mobile/Footer/MobileFooterTemplate"
-
-import { Navbar } from "../../Templates/Mobile/Navbar/Navbar"
-import { TemplateCompleto } from "../../Templates/TemplateCompleto"
+import { TemplatePadrao1 } from "../../Templates/TemplatePadrao1"
 import "./Cadastro.css"
 import { FormCadastro } from "./FormCadastro/FormCadastro"
 
 export function Cadastro(){
     return(
         <>
-        <TemplateCompleto />
-        <Navbar />
+        
+        <TemplatePadrao1 />
+
         <div className="cadastro">
             
             

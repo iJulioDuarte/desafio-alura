@@ -1,8 +1,7 @@
-
-    .body-template-mobile{
-        position: relative;
-        z-index: -100;
-    }
+.body-template-mobile{
+    position: relative;
+    z-index: -100;
+}
     
     .body-template-mobile img{
         margin-top: 12rem;
