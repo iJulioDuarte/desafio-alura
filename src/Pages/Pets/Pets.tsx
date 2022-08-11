@@ -7,7 +7,7 @@ import "./Pets.css"
 
 export function Pets(){
     return(
-    <>
+    <div className="pets">
     <TemplatePadrao2 />
     <div className="pag-pets">
         
@@ -41,6 +41,6 @@ export function Pets(){
     <footer>
         <MobileFooterTemplate />
     </footer>     
-    </>
+    </div>
     )
 }

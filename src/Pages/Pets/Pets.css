@@ -1,4 +1,9 @@
+.pets .desktop .corpo .forma2{
+    display: none;
+}
+
 .pag-pets{
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,7 +1,7 @@
 .body-template-desktop{
     position: absolute;
     right: 0;
-    top:30%;
+    top:25%;
     z-index: -200;
 }
 
