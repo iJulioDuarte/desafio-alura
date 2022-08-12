@@ -10,9 +10,7 @@ export function Login(){
     return(
         <>
         <TemplatePadrao1 />
-        
         <div className="login">
-            
 
             <section className="apresentacao">
                 <img className="logo" src="src\Templates\Imagens\LogoAzul.png" alt="Logo" />  

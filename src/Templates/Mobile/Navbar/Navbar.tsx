@@ -10,7 +10,7 @@ export function Navbar(){
         <nav className="navbar-model">
             <ul>
                 <li onClick={() =>{
-                navigate("/home")
+                navigate("/")
                 }}><img className="item1"  src="src\Pages\Home\Header\img\Casa.png" /></li>
                 <li><img className="item2" src="src\Pages\Home\Header\img\Mensagens.png" /></li>
             </ul>

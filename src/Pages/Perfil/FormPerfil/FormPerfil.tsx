@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react"
 import "./FormPerfil.css"
 import "../../Doacao/FormDoacao/FormDoacao.css"
+import { useNavigate } from "react-router-dom"
 
 export function FormPerfil(){
     const [image, setImage]:any = useState('')
     const [endImg, setEndImg] =useState()
-
+    const navigate = useNavigate()
     return(
 
         <div className="form-perfil">
@@ -49,7 +50,9 @@ export function FormPerfil(){
 
             </div>   
             
-            <button className="button-doacao">
+            <button className="button-doacao" onClick={() =>{
+                navigate("/pets")
+            }}>
                 Enviar
             </button>
         </div>

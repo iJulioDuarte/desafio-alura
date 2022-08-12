@@ -2,12 +2,18 @@
         background-color: #F6F6F6;
         width: 21rem;
     }
+    .cards-pets:hover{
+        background-color: azure;
+        cursor:pointer;
+    }
 
     .cards-pets .card-pets{
         display: flex;
         margin-top: 0.5rem;
         margin-bottom: 0.6rem;
     }
+
+
 
     .cards-pets .card-pets .pet-name{
         color: #3772FF;

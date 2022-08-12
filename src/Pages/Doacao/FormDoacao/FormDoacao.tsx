@@ -1,6 +1,7 @@
 import "./FormDoacao.css"
-
+import { useNavigate } from "react-router-dom"
 export function FormDoacao(){
+    const navigate = useNavigate()
     return(
         <>
         
@@ -26,12 +27,16 @@ export function FormDoacao(){
                     <label>Mensagem</label>
                     <textarea rows={16} cols={40} maxLength={480} name="telefone" placeholder="Escreva sua mensagem" className="campo-texto"></textarea>
                 </div>
+            
+            <button className="button-doacao" onClick={() =>{
+                navigate("/pets")
+            }}>
+                Enviar
+            </button>
             </form>
             </div>   
             
-            <button className="button-doacao">
-                Enviar
-            </button>
+            
         </div>
         </>
 

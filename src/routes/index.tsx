@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, RouteMatch } from "react-router-dom"
+import { Routes, Route, Navigate, useNavigate} from "react-router-dom"
 import { Cadastro } from "../Pages/Cadastro/Cadastro"
 import { Doacao } from "../Pages/Doacao/Doacao"
 import { Home } from "../Pages/Home/Home"
@@ -6,26 +6,29 @@ import { Login } from "../Pages/Login/Login"
 import { Perfil } from "../Pages/Perfil/Perfil"
 import { Pets } from "../Pages/Pets/Pets"
 
-import { useState, useEffect } from "react"
 
 export function AppRoutes(){
 
+    const user = localStorage.getItem("user")
+    const logado = user!=null ? user.toString() === "true" : false
+    const navigator = useNavigate()
+    
     return(
         <Routes>
 
-            <Route key={"home"} path="/home" element={<Home /> } />
+            <Route path="/home" element={<Home /> } />
 
-            <Route path="*" element={<Navigate to="/home" />} />
+            <Route path="*" element={<Home />} />
 
             <Route path="/cadastro" element={<Cadastro />} />    
             
             <Route path="/login" element={<Login />} />
 
-            <Route path="/pets" element={<Pets />} />
+            {logado?<Route path="/pets" element={<Pets />} /> : ''}
 
-            <Route path="/doacao" element={<Doacao />} />
+            {logado?<Route path="/doacao" element={<Doacao />} /> : ''}
 
-            <Route path="/perfil" element={<Perfil />} />
+            {logado?<Route path="/perfil" element={<Perfil />} /> : ''}
 
         </Routes>
     )

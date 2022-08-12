@@ -7,8 +7,10 @@ export function Navbar2(){
         <nav className="navbar-model">
             <ul>
                 <li onClick={() =>{
-                navigate("/home")
-                }}><img className="item1"  src="src\Pages\Home\Header\img\Casa.png" /></li>
+                navigate("/")
+                }}><img className="item1"  src="src\Pages\Home\Header\img\Casa.png" onClick={() =>{
+                    localStorage.removeItem("user")
+                }}/></li>
                 <li><img className="item2" src="src\Pages\Home\Header\img\Mensagens.png" /></li>
                 <li onClick={() =>{
                 navigate("/perfil")

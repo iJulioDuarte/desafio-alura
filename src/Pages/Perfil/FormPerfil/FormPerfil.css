@@ -17,6 +17,10 @@
     height: 5rem;
     border-radius: 64px;
 }
+
+.form-perfil .perfil-picture:hover{
+    cursor:pointer;
+}
 .form-perfil h2{
     color: #737380;
 }

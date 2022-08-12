@@ -6,17 +6,23 @@ import { useNavigate } from "react-router-dom"
 
 
 export function FormLogin(){
+    
     const [exibe, setExibe] = useState(false)
     const [emailLogin, setEmailLogin] = useState("")
     const [senhaLogin, setSenhaLogin] = useState("")
 
-    let navigator = useNavigate()
+    const navigator = useNavigate()
     return(
     <>
-        <form className="formLogin" onSubmit={(e) =>{
-            e.preventDefault();
+        <form className="formLogin" onSubmit={() =>{
             const logado = confereDados(emailLogin, senhaLogin)
-            logado === true ? navigator("/pets") : alert("Email e/ou senha inválidos")
+            if (logado === true){
+                localStorage.setItem("user", logado.toString())
+                navigator("/pets")
+            } 
+            else{
+                alert("Email e/ou senha inválidos")
+            } 
         }}>
 
         <div className="form-component">
@@ -48,7 +54,7 @@ export function FormLogin(){
                 </div>
             </div>
             <div className="form-component">
-                <button className="btn-login">Entrar</button>
+                <button className="btn-login" >Entrar</button>
             </div>
         </form>
 
