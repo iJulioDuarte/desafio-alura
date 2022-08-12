@@ -3,32 +3,29 @@ import "./FormPerfil.css"
 import "../../Doacao/FormDoacao/FormDoacao.css"
 
 export function FormPerfil(){
-    const [urlImage, setUrlImage] = useState("")
-    const [image, setImage] = useState("https://github.com/iJulioDuarte.png")
- 
+    const [image, setImage]:any = useState('')
+    const [endImg, setEndImg] =useState()
+
     return(
 
         <div className="form-perfil">
             <h2>Perfil</h2>
             <div>
-            <form onSubmit={(e) =>{
-                e.preventDefault()
-                setImage(urlImage)
-            }}>
+            <form>
                 <div className="form-component">
                     <label>Foto</label> 
                 </div>
+
                 <div className="foto-component">
-                    <img className="perfil-picture" src={image} />
                     
-                    <input type="text" placeholder="Digite a url da imagem" className="campo-texto-foto" onChange={(e) =>{
-                        setUrlImage(e.target.value)
-                    }}></input> 
-                    <button>Enviar</button>
+                <label htmlFor="input-foto" className="perfil-picture"><img alt="not fount" className="perfil-picture" src={image? URL.createObjectURL(image) : "src/imgFundo/User.png"}/></label>
+                    
+                    <input type="file" name="image" id="input-foto" className="campo-texto-foto" onChange={(e) =>{
+                        if (!e.target.files) return;
+                        setImage(e.target.files[0])   
+                    }}></input>
+                <h6>Clique na foto para editar</h6>
                 </div>    
-            </form>
-            
-            <form>
                 <div className="form-component">
                     <label>Nome:</label>
                     <input type="text" name="nome" placeholder="Digite seu nome completo" className="campo-texto"></input>

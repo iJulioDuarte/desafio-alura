@@ -7,11 +7,6 @@ button:hover{
     cursor: pointer;
 }
 
-button:active{
-    background: #f82121;
-    cursor: pointer;
-    margin-top: 0.2rem;
-}
 
 .form-doacao input{
     background-color: #FFF;
