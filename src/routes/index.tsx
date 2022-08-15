@@ -11,7 +11,6 @@ export function AppRoutes(){
 
     const user = localStorage.getItem("user")
     const logado = user!=null ? user.toString() === "true" : false
-    const navigator = useNavigate()
     
     return(
         <Routes>

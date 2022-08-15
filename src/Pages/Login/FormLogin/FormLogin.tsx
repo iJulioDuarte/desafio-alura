@@ -18,7 +18,8 @@ export function FormLogin(){
             const logado = confereDados(emailLogin, senhaLogin)
             if (logado === true){
                 localStorage.setItem("user", logado.toString())
-                navigator("/pets")
+                navigator("/pets") 
+                document.location.reload()
             } 
             else{
                 alert("Email e/ou senha inválidos")

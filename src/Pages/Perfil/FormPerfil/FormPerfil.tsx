@@ -4,7 +4,7 @@ import "../../Doacao/FormDoacao/FormDoacao.css"
 import { useNavigate } from "react-router-dom"
 
 export function FormPerfil(){
-    const [image, setImage]:any = useState('')
+    const [image, setImage] = useState<any>('')
     const [endImg, setEndImg] =useState()
     const navigate = useNavigate()
     return(
