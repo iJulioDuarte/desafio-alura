@@ -1,5 +1,5 @@
 export type CardsPetsProps = {
-    imagem:string 
+    imagem?:string 
     nome:string
     idade:string 
     porte:string 

@@ -28,30 +28,29 @@ export function FormLogin(){
 
         <div className="form-component">
             <label>Email:</label>
-            <input required type="text" name="email" placeholder="Digite seu melhor email" className="campo-texto" value={emailLogin} onChange={(e) =>{
+            <input required 
+                type="text" 
+                name="email" 
+                placeholder="Digite seu melhor email" 
+                className="campo-texto" 
+                value={emailLogin} 
+                onChange={(e) =>{
                         setEmailLogin(e.target.value)
                     }}></input>
         </div>
         <div className="form-component">
                 <label>Senha:</label>
                 <div className="campo-senha">
-                    <input required type={exibe ? "text" : "password"} name="senha" placeholder="Crie uma senha" className="campo-texto" value={senhaLogin} onChange={(e) =>{
-                        setSenhaLogin(e.target.value)
-                    }}/>
-                    <img  className="eyeSvg" onClick={() =>{
-                
-                        if (exibe === true){
-                            return(
-                                setExibe(false)
-                            )
-                        }
-                        else{
-                            return(
-                                setExibe(true)
-                            )
-                        }
-                
-                    }} width="1rem"  src="src/Templates/Imagens/Vector.png" alt="Imagem olho"/>
+                    <input required 
+                        type={exibe ? "text" : "password"} 
+                        name="senha" 
+                        placeholder="Crie uma senha" 
+                        className="campo-texto" 
+                        value={senhaLogin} 
+                        onChange={(e) =>{
+                            setSenhaLogin(e.target.value)
+                        }}/>
+                    <img  className="eye-svg" onClick={() =>{setExibe(!exibe) }} width="1rem"  src="src/Templates/Imagens/Vector.png" alt="Imagem olho"/>
                 </div>
             </div>
             <div className="form-component">

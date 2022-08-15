@@ -23,11 +23,11 @@ export function AppRoutes(){
             
             <Route path="/login" element={<Login />} />
 
-            {logado?<Route path="/pets" element={<Pets />} /> : ''}
+            {logado && <Route path="/pets" element={<Pets />} />}
 
-            {logado?<Route path="/doacao" element={<Doacao />} /> : ''}
+            {logado && <Route path="/doacao" element={<Doacao />} />}
 
-            {logado?<Route path="/perfil" element={<Perfil />} /> : ''}
+            {logado && <Route path="/perfil" element={<Perfil />} />}
 
         </Routes>
     )

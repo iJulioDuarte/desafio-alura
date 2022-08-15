@@ -4,6 +4,7 @@
     }
     .cards-pets:hover{
         background-color: azure;
+        border: 2px solid rgb(144, 144, 144);
         cursor:pointer;
     }
 
@@ -43,6 +44,10 @@
     .cards-pets .card-pets .pet-footer-contact{
         display: flex;
         padding-top: 0.4rem;
+    }
+
+    .cards-pets .card-pets .pet-footer-contact img{
+        padding-right: 0.3rem;
     }
 @media screen and (max-width: 640px){
     .cards-pets{

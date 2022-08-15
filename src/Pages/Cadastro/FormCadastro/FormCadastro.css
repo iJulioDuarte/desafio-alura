@@ -48,7 +48,7 @@ input::placeholder{
     color:#BCBCBC;
 }
 
-.eyeSvg{
+.eye-svg{
     position: absolute;
     width: 1rem;
 }
@@ -108,7 +108,7 @@ input::placeholder{
         margin-bottom: 5rem
     }
 
-    .eyeSvg{
+    .eye-svg{
         position: absolute;
         width: 1rem;
     }

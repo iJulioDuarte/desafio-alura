@@ -1,4 +1,4 @@
-.backgroundHeader{
+.background-header{
         height: 24em;
         background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
         background-size: 40em 20rem, 43em 24em;
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 640px){
 
-.backgroundHeader{
+.background-header{
     height: 12em;
     background-image: url("src/imgFundo/Forma1.png"), url("src/imgFundo/Detalhe1.png");
     background-size: 22em 13em, 25em 13em;

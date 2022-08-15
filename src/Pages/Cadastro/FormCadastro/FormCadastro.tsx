@@ -45,32 +45,32 @@ const navigate = useNavigate()
             <div className="form-component">
                 <label>Senha:</label>
                 <div className="campo-senha">
-                    <input required={true} type={exibe ? "text" : "password"} name="senha" placeholder="Crie uma senha" className="campo-texto" value={senha} onChange={(e) =>{
-                        setSenha(e.target.value)
-                    }} />
-                    <img  className="eyeSvg" onClick={() =>{
-                
-                        if (exibe === true){
-                            return(
-                                setExibe(false)
-                            )
-                        }
-                        else{
-                            return(
-                                setExibe(true)
-                            )
-                        }
-                
-                    }} width="1rem"  src="src/Templates/Imagens/Vector.png" alt="Imagem olho"/>
+                    <input 
+                        required={true} 
+                        type={exibe ? "text" : "password"} 
+                        name="senha" 
+                        placeholder="Crie uma senha" 
+                        className="campo-texto" 
+                        value={senha} 
+                        onChange={(e) =>{
+                            setSenha(e.target.value)
+                        }} />
+                    <img  className="eye-svg" onClick={() =>{setExibe(!exibe)}} width="1rem"  src="src/Templates/Imagens/Vector.png" alt="Imagem olho"/>
                 </div>
             </div>
             
             <div className="form-component">
                 <label>Confirma:</label>
                 <div className="campo-senha">
-                    <input required={true} type={exibe ? "text" : "password"} name="senha" placeholder="Repita a senha criada acima" className="campo-texto" value={confirmaSenha} onChange={(e) =>{
-                        setConfirmaSenha(e.target.value)
-                    }}/>
+                    <input 
+                        required={true} 
+                        type={exibe ? "text" : "password"} 
+                        name="senha" 
+                        placeholder="Repita a senha criada acima" 
+                        className="campo-texto" value={confirmaSenha} 
+                        onChange={(e) =>{
+                            setConfirmaSenha(e.target.value)
+                            }}/>
                 </div>
             </div>
             <div className="form-component">

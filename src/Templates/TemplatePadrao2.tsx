@@ -1,7 +1,5 @@
-import { TemplateCompletoDesktop } from "./Desktop/TemplateCompletoDesktop";
 import { TemplateSimplesDesktop } from "./Desktop/TemplateSimplesDesktop";
-import { Navbar2 } from "./Mobile/Navbar/Navbar2";
-import { TemplateCompleto } from "./TemplateCompleto";
+import { Navbar } from "./Mobile/Navbar/Navbar";
 import { TemplateSimples } from "./TemplateSimples";
 
 export function TemplatePadrao2(){
@@ -9,13 +7,13 @@ export function TemplatePadrao2(){
         <>        
         <div className="mobile">
             <TemplateSimples />
-            <Navbar2 />
+            <Navbar showProfile />
         </div>
         <div className="desktop">
             <TemplateSimplesDesktop />
             <div className="imagens-topo">
                 <img className="logo2" src="src\Pages\Home\Header\img\Logo.png" alt="logo" />
-                <Navbar2 />
+                <Navbar showProfile />
             </div>
         </div>
         </>

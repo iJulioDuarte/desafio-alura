@@ -6,10 +6,10 @@ export function Body(){
     let navigate = useNavigate()
     return(
         <>
-        <div className="backgroundCorpo">
+        <div className="background-corpo">
 
                 
-                <div className="textoHome">
+                <div className="texto-home">
                     <img className="logo-inicio" src="src\Pages\Home\Header\img\Logo.png" alt="Adopet" />
                     <h1>Boas-vindas!</h1>
 

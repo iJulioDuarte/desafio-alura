@@ -1,6 +1,8 @@
 import "./CardsPets.css"
 import { CardsPetsProps } from "./CardsPetsProps"
 import { useNavigate } from "react-router-dom"
+
+
 export function CardsPets({imagem, nome, idade, porte, personalidade, cidade}:CardsPetsProps){
     
     let navigator = useNavigate()
