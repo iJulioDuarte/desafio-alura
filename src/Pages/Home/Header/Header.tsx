@@ -9,7 +9,6 @@ export function Header(){
                     <img className="logo2" src="src\Pages\Home\Header\img\Logo.png" alt="logo" />
                     <Navbar />
                 </div>
-                
             </div>
         
     )

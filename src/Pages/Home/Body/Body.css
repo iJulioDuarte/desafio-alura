@@ -98,7 +98,8 @@
     }
 
     .background-corpo .logo-inicio{
-        display:none;
+        width: 12rem;
+        margin-bottom: -3rem;
     }
     .background-corpo .texto-home{
         margin-top: -25rem;
