@@ -14,9 +14,7 @@ export function Perfil(){
                         Esse é o perfil que aparece para os responsáveis ou ONGs que recebem sua mensagem
                     </h4>
                 </section>
-                <section className="form-doacao">
                     <FormPerfil />
-                </section>
             </div>
             <MobileFooterTemplate />
 

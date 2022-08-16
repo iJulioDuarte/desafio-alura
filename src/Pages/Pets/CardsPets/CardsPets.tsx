@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 
 
 export function CardsPets({imagem, nome, idade, porte, personalidade, cidade}:CardsPetsProps){
-    
+
     let navigator = useNavigate()
     return(
         <section className="cards-pets">
